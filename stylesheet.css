@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #f2f2f2;
+  color: #555555;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 1.3rem;
+  max-width: 125rem;
+}
+
+#gallery {
+  column-count: 6;
+  column-gap: 5px;
+}
+
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+ }
+
+.container {
+  transition: all .4s ease-out;
+  padding: 3px;
+  filter: grayscale(100%);
+}
+ 
+.container:hover {
+  filter: grayscale(25%);
+  transform: scale(1.015);
+  cursor: pointer;
+}
